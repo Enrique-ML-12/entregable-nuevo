@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>entregable</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="menu-principal">
+        <div class="menu-logo">EducaTech</div>
+        <nav class="menu-enlaces">
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#programas">Programas</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <div class="banner-principal" id="inicio">
+        <div class="banner-contenido">
+            <h1>Forma tu futuro con educación de calidad</h1>
+            <p>Programas técnicos superiores diseñados para impulsar tu desarrollo profesional y personal.</p>
+            <a href="https://www.senati.edu.pe/" class="bot-ban">Conoce nuestros programas</a>
+        </div>
+    </div>
+    <div class="divisor">
+        <div class="izquierda" id="nosotros">
+                <h2>¿Por qué estudiar con nosotros?</h2>
+                <p>En EducaTech te ofrecemos las mejores herramientas para que aprendas haciendo proyectos reales desde el primer día de clases.</p>
+            <div class="info-nosotros">
+
+                <div class="recuadro">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLFvsuEo7526flrFDZukF-vgCjdBaZj96C8vgE1vqvXw2fFXVb5K7Zg1s&s=10">
+                    <h4>Educación Práctica</h4>
+                    <p>Información que cambiarás luego sobre nuestra metodología.</p>
+                </div>
+
+                <div class="recuadro">
+                    <img src="https://landingpages.computrabajo.com/StaticHTML/774/774_cambiar%20de%20empleo%203.png">
+                    <h4>Oportunidades</h4>
+                    <p>Información que cambiarás luego sobre convenios laborales.</p>
+                </div>
+
+                <div class="recuadro">
+                    <img src="https://fococonsultores.es/wp-content/uploads/2018/11/flexibilidad-horaria.jpg">
+                    <h4>Flexibilidad</h4>
+                    <p>Información que cambiarás luego sobre horarios de estudio.</p>
+                </div>
+            </div>           
+            <hr>
+            <h3 id="programas">Nuestros Programas Académico</h3>
+            <div class="especialidad">
+                <div class="carrera">
+                    <img src="https://togrowagencia.com/wp-content/uploads/2024/07/desarrollo-software.webp">
+                    <h4>Desarrollo de Software</h4>
+                    <p>Diseña, programa y despliega aplicaciones web y móviles escalables utilizando tecnologías modernas y bases de datos dinámicas.</p>
+                    <button type="submit" class="boton-carrera">Conocer más</button>
+                </div>
+
+                <div class="carrera">
+                    <img src="https://adex.edu.pe/wp-content/uploads/2025/08/administracion-y-gestion-de-empresas-adex-escuela.jpg">
+                    <h4>Administracion de empresas</h4>
+                    <p>Lidera organizaciones eficientes gestionando recursos, estrategias comerciales y herramientas tecnológicas para la toma de decisiones.</p>
+                    <button type="submit" class="boton-carrera">Conocer más</button>
+                </div>
+
+                <div class="carrera">
+                    <img src="https://www.verisure.pe/sites/pe/files/flmngr/drupal/blog/ciberseguridad.jpg">
+                    <h4>Ciberseguridad</h4>
+                    <p>Protege redes, sistemas y datos contra ataques digitales globales.</p>
+                    <button type="submit" class="boton-carrera">Conocer más</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="derecha" id="contacto">
+            <div class="formulario">
+                <h3>Regístrate ahora</h3>
+                <p>Ingresa tus datos para postular</p>
+            </div>
+            <form id="miformulario" method="POST">
+                <div class="campo">
+                    <label>Nombre y Apellido:</label>
+                    <input type="text" id="nombre" placeholder="Ej. Carla Quispe">
+                </div>
+
+                <div class="campo">
+                    <label>Correo:</label>
+                    <input type="email" id="correo" placeholder="example@gmail.com">
+                </div>
+
+                <div class="campo">
+                    <label>Carrera de Interes</label>
+                    <select id="interes">
+                       <option value="">--Seleccionar--</option>
+                       <option value="Software">Desarrollo de Software</option>
+                       <option value="Empresas">Administración de Empresas</option>
+                       <option value="Seguridad">Ciberseguridad</option> 
+                    </select>
+                </div>
+                <button type="submit" class="boton-enviar">Enviar Registro</button>
+            </form>
+            <div id="mensaje"></div>
+        </div>
+    </div>
+    <footer class="pie-pagina">
+        <p>&c; 2026 EducaTech. Todos los derechos reservados. | Diseñado para el Trabajo Final</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
